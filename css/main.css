@@ -95,7 +95,6 @@ html {
 img.avatar {
   border-radius: 30px;
 }
-
 /* Masonary grid for portfolio */
 .grid:after {
   content: '';
@@ -269,3 +268,4 @@ footer a:not(.nav-link) {
 .entry-title a {
   text-decoration: none;
 }
+
