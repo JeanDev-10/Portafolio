@@ -269,3 +269,23 @@ footer a:not(.nav-link) {
   text-decoration: none;
 }
 
+.container-flex{
+  width: 70%;
+  margin: 0 auto;
+  gap: 2em;
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container-flex>img{
+  width: 20%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 1s ease-in-out; /* Suaviza la animación */
+  transform-origin: center; /* Define el origen de transformación */
+}
+
+.container-flex>img:hover{
+  transform: rotateY(180deg); /* Gira en el eje X */
+}
